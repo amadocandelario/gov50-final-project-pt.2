@@ -1,6 +1,6 @@
 ---
 title: "Gov 50 Final Project"
-author: "Your Name Here"
+author: "Amado Candelario"
 description: "My final project"
 output:
   distill::distill_article:
@@ -11,4 +11,14 @@ output:
 
 ## Project thoughts
 
-I am interested in exploring data related to...
+Does racial identity implicate attitudes towards gay marriage? In this study, I plan to examine the extent to which differentiating racial identities have an impact on attitudes towards gay marriage. I hypothesize that white racial groups will tend to have more favorable attitudes toward gay marriage than other racial groups. I make this hypothesis because it reflects the social theory that non-white racial groups statistically tend to be more conservative on social issues because of their ties to tradition and religion. My sample is compromised of survey data from the CES Cumulative Common Content and the CES Policy Preferences. I will merge these datasets across the "case_id" variable. The explanatory variable of interest is racial identity and my outcome variable is attitudes on gay marriage. In the CCC survey the race variable is coded as "race" and in the PP survey the attitudes towards gay marriage is encoded under three variables "gaymarriage_scale" (measures attitude towards gay marriage), "gaymarriage_ban" (whether or not participant supports the banning of gay marriage), and "gaymarriage_legalize" (whether or not the participant supports the legalization of gay marriage). I will be using "gaymarriage_legalize" for this study because it analyses views of the legalization of gay marriage from the years 2012 to 2016, which allows me to see how perspectives on gay marriage have shifted overtime for participants of different racial identities. If I observe consistent behavior of people who identify as white having a more positive attitude towards gay marriage (meaning voting in favor of legalizing it), my hypothesis will be right. However, if I observe a minority ethnic group (Black, Latino, Asian, Native American) consistently having the the highest positive attitude towards gay marriage legalization, then my hypothesis will be wrong.
+
+* CES Cumulative Common Content
+=> Grouping variables (ethnicity, party)
+	  https://doi.org/10.7910/DVN/II2DB6
+
+* CES Policy Preferences (merge to cumulative by case_id)
+=> Outcome variables (policy preferences; Gay marriage preference) 
+	  https://doi.org/10.7910/DVN/OSXDQO
+
+Potential Confounding Variables to Pay attention to: Education, Political Ideology, Religion
